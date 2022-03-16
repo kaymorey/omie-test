@@ -1,0 +1,14 @@
+.product-item {
+    padding: 1.25rem;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.product-item:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
+
+.product-item__name {
+    font-weight: normal;
+    font-size: 1.125rem;
+}
